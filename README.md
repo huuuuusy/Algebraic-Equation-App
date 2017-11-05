@@ -9,9 +9,9 @@ This APP contains 3 pages: The start page, the quiz page(the first 5 questions a
 
 # 2 Start Page
 
-![](http://res.cloudinary.com/dyy3xzfqh/image/upload/v1509779914/Screenshot_1509779718_imux2b.png)
+![](http://res.cloudinary.com/dyy3xzfqh/image/upload/v1509790816/Screenshot_1509790753_mlmasn.png)
 
-The start page includes the title with two buttons. The **START** button links the quiz page, while the **ABOUT** button combines the URL of this webpage and will skip to this blog once click it.
+The start page includes the title with three buttons. The **START** button links the quiz page, while the **ABOUT** button combines the URL of this webpage and will skip to this blog once click it. The **DEMO** button will skip to [Youtube](https://www.youtube.com/watch?v=Qc76Fri1ils&feature=youtu.be), where I've upload a demo for this App as a guidance. 
 
 # 3 Quiz Page
 
@@ -60,9 +60,8 @@ The figure above shows the incomplete situation.
 
 While correct answer combines with the incorrect input will be regard as wrong answer.
 
-## 4 Result Page
+# 4 Result Page
 
 ![](http://res.cloudinary.com/dyy3xzfqh/image/upload/v1509861194/Screenshot_1509860680_gh6ddq.png)
 
 This is the last page in the APP, in this page the user will get the feedback about his or her performance in this test. Different situations are displayed in different color to highlight. What's more, by click the source code below, you can get the source code of this App in GitHub.
-
