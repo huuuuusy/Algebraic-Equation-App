@@ -1,0 +1,147 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/blue1"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_weight="0.48">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue4"
+            android:layout_marginTop="0dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv5"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:typeface="normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:background="@color/blue1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue2"
+                android:textSize="22sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Please enter the value of x1(2 decimal places):"
+                android:textColor="@color/blue2"
+                android:textSize="15sp"
+                android:typeface="normal" />
+
+            <EditText
+                android:id="@+id/et1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberSigned|numberDecimal"
+                android:maxLines="1"
+                android:textColor="@color/blue2"
+                android:textSize="15sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Please enter the value of x2(2 decimal places):"
+                android:textColor="@color/blue2"
+                android:textSize="15sp"
+                android:typeface="normal" />
+
+            <EditText
+                android:id="@+id/et2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberSigned|numberDecimal"
+                android:maxLines="1"
+                android:textColor="@color/blue2"
+                android:textSize="15sp"
+                android:typeface="normal" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1"
+            android:background="@color/blue3"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:background="@color/blue3"
+            android:textColor="@color/white"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="0dp"
+        android:layout_weight="0.33"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv7"
+            android:textSize="22sp"
+            android:typeface="normal"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:textSize="18sp"
+            android:typeface="normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:textSize="18sp"
+            android:typeface="normal"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
