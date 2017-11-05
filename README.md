@@ -1,1 +1,0 @@
-# Algebraic Equation App
