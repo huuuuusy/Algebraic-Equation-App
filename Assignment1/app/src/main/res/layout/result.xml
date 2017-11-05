@@ -127,7 +127,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:gravity="center"
-        android:text="Copyright: Hu Shiyu(3035419107)"
         android:textColor="@color/blue2"
         android:textSize="10sp" />
 

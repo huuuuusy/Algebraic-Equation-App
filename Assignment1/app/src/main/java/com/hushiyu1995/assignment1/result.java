@@ -6,6 +6,8 @@ package com.hushiyu1995.assignment1;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.text.Html;
+import android.text.method.LinkMovementMethod;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -50,6 +52,7 @@ public class result extends AppCompatActivity {
             TextView t7 = (TextView) findViewById(R.id.tv7);
             TextView t8 = (TextView) findViewById(R.id.tv8);
             TextView t9 = (TextView) findViewById(R.id.tv9);
+            TextView t10 = (TextView) findViewById(R.id.tv10);
 
             t3.setText("Correct: "+ correctNumber);
             t3.setTextColor(Color.rgb(17,205,134));
@@ -60,6 +63,12 @@ public class result extends AppCompatActivity {
             t7.setText("Longest Time: "+ longestTime);
             t8.setText("Shortest Time: "+ shortestTime);
             t9.setText("Average Time: "+ averageTime);
+
+            String html = "Source Code:\n";
+            html += "<a href='https://github.com/huuuuusy/Algebraic-Equation-App'>huuuuusy@GitHub</a>";
+            t10.setMovementMethod(LinkMovementMethod.getInstance());
+            t10.setText(Html.fromHtml(html));
+
 
 
             btn_finish = (Button)findViewById(R.id.btn1);
