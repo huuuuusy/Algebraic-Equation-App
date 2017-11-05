@@ -62,8 +62,7 @@ While correct answer combines with the incorrect input will be regard as wrong a
 
 ## 4 Result Page
 
-![](http://res.cloudinary.com/dyy3xzfqh/image/upload/v1509783009/Screenshot_1509782091_ofm9xj.png)
+![](http://res.cloudinary.com/dyy3xzfqh/image/upload/v1509861194/Screenshot_1509860680_gh6ddq.png)
 
-This is the last page in the APP, in this page the user will get the feedback about his or her performance in this test. Different situations are displayed in different color to highlight.
-
+This is the last page in the APP, in this page the user will get the feedback about his or her performance in this test. Different situations are displayed in different color to highlight. What's more, by click the source code below, you can get the source code of this App in GitHub.
 
