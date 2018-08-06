@@ -1,5 +1,5 @@
 # Algebraic-Equation-App
-I'd like to share my first project about Android APP development in this post. As a beginner in APP development, my first project is about an algebraic equation quiz. Users will answer ten questions about linear and quadratic equation, and the APP should judge the result with the correct answer to analysize their performance in this test. This blog is about some basic information of this APP.
+I'd like to share my first project about Android APP development in this post. As a beginner in APP development, my first project is about an algebraic equation quiz. Users will answer ten questions about linear and quadratic equation, and the APP should judge the result with the correct answer to analysize their performance in this test. This blog is about some basic information of this Android application.
 
 # 1 Basic Information
 
